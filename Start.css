@@ -1,0 +1,228 @@
+body {
+    font-family: Verdana, Arial, sans-serif; /* Рубленый шрифт на странице */
+    width: 80%;
+    height: 100%;
+    margin: 0 auto; 
+           }
+	   
+   #top { /* Верхняя часть с заголовком страницы */
+    width: 1200px;
+    height: 73px;
+    background-image: url("images/Takata_logo.png");
+    background-repeat: no-repeat;
+    background-color: transparent; /* Цвет фона */
+    border: solid 1px transparent; /* Параметры рамки  */
+    margin-bottom: 0px;
+    font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: black; /* Цвет символов */
+    text-align: center; /* Выровнять по центру */
+   }
+
+      
+   #languagebar {
+    background-color: transparent;
+    margin-bottom: 0px;
+    margin-left: 88%;
+    margin-top: 0px;
+    margin-right: 10px;
+   	   }
+   
+   table#t01 {
+
+    font-size: small;
+    border-spacing: 2px;	
+	
+   }
+
+   .paragraph {
+    margin-top: 1%;
+    margin-left: 40%;
+   }
+
+   .screenshot {
+   margin-top: -1%; 
+   padding-bottom: 1%;
+   padding-left: 1%;
+      }
+
+    table#t02 {
+
+    width: 90%; /* Ширина таблицы в процентах */
+    border-collapse: collapse;
+    border: solid 1px silver;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%; 
+        }
+
+   .col1 {
+    width: 2%; /* Ширина ячейки1 */
+	border: solid 1px DarkKhaki;
+	padding-left: 5px;
+    padding-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+   }
+
+   .col2 {
+    width: 96%; /* Ширина ячейки2 */
+	border: solid 1px DarkKhaki;
+	padding-left: 5px;
+    padding-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	}
+	
+	.col2 a:link {
+	color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+	   }
+   
+   	.col2 a:visited {
+	color: black;
+    background-color: transparent;
+    text-decoration: none;
+	   }
+   
+   	.col2 a:hover {
+	color: red;
+    background-color: transparent;
+    text-decoration: underline;
+	   }
+   
+    .col2 a:active {
+	color: green;
+    background-color: transparent;
+    text-decoration: underline;
+	   }
+   
+   .col3 {
+    width: 2%; /* Ширина ячейки3 */
+	height:30px;
+	border: solid 1px DarkKhaki;
+	padding-top: 3px;
+	padding-left: 7px;
+   }
+   
+   .tablehead {
+	background-color: DarkKhaki;   
+	border: solid 1px DarkKhaki;
+	padding: 5px;
+   
+   }
+
+
+  #menucontainer {
+    width: 1200px;
+    height: 53px;
+    background-color: #333;
+    position: center;
+    border: 1px solid silver;
+        }
+
+
+   ul {
+    width: 1200px;
+    list-style-type: none;
+    position: absolute;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: center;
+    margin-bottom: 0px;
+	}
+	
+	li {
+	 display: inline;
+	 float: left;
+	}
+	
+	li a:hover {
+    background-color: #111;
+	}
+	
+	li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+
+ 	
+   p.heading {
+    width: 1200px;
+    height: 36px;
+    margin-top: 0px;  
+    margin-left: 0px; /* Отступ слева */
+    margin-right: 0px; /* Отступ слева */
+    margin-bottom: 0px; /* Отступ снизу */ 
+    padding-top: 0px;
+    padding-bottom: 0px;  
+    text-align: center; /* Выравнивание по центру */
+    font-size: 210%; /* Размер шрифта */
+    font-family: "Times New Roman", Times, serif; /* Шрифт с засечками */ 
+    font-weight: bold; /* Нормальное начертание */
+    color: white; /* Цвет текста */
+    background-color: Chocolate;
+    border: 1px solid silver;
+	}
+
+   #maingroundspace { /* Основное содержание страницы */
+    width: 1200px;
+    height: 1000px;
+    border: solid 1px silver; /* Параметры рамки */
+    margin-top: 0px;
+    margin-left: 0px; /* Отступ слева */
+    margin-right: 0px; /* Отступ слева */
+    margin-bottom: 0px; /* Отступ снизу */
+    background-image: url("images/4MainPageTakata.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }  
+	
+   #content { /* Основное содержание страницы */
+    width: 1200px;
+    border: solid 1px silver; /* Параметры рамки */
+    margin-top: 0px;
+    margin-left: 0px; /* Отступ слева */
+    margin-right: 0px; /* Отступ слева */
+    margin-bottom: 0px; /* Отступ снизу */
+   }
+
+    #content P { 
+    font-size: 110%; /* Размер шрифта */
+    text-align: justify; /* Выравнивание по ширине */
+    padding-left: 1%; 
+    padding-right: 1%;
+    margin: 0%; 
+   }
+
+    #content H2 {
+    padding-left: 1%;
+    text-decoration: none;
+   }
+
+    #content H3 {
+    padding-left: 1%;
+    text-decoration: underline;
+   }
+     
+    #bottom { /* Нижняя часть */
+    width: 1200px;
+    height: 20px;
+    background: silver; /* Цвет фона */
+    border: solid 1px silver; /* Параметры рамки */
+    font-size: 90%; /* Размер шрифта */
+    text-align: center;
+       }
+
+
+   
+   
